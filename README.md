@@ -32,7 +32,7 @@ from datasets import load_dataset
 from holobench import load_context
 from litellm import completion
 
-queries = load_dataset("megagonlabs/holobench_dev", name="queries")
+queries = load_dataset("megagonlabs/holobench", name="queries")
 db_id = "wine_1"
 ins = queries[db_id][0]
 ins["query"]
@@ -49,7 +49,7 @@ This snippet loads a SQL query from the `wine_1` database in the HoloBench datas
 Now, load the dataset and retrieve the context for the query:
 
 ```python
-db = load_dataset("megagonlabs/holobench_dev", name=db_id)
+db = load_dataset("megagonlabs/holobench", name=db_id)
 context, gold_answer = load_context(ins["query"],
                                     db,
                                     max_context_size=4096,
@@ -80,8 +80,9 @@ The output from the model looks like this:
 ```bibtex
 @misc{maekawa2025holistic,
   title={Holistic Reasoning with Long-Context LMs: A Benchmark for Database Operations on Massive Textual Data},
-  author={Seiji Maekawa and Hayate Iso and Nikita Bhutani},
-  year={2024}
+  author={Seiji Maekawa\textsuperscript{*} and Hayate Iso\textsuperscript{*} and Nikita Bhutani},
+  year={2024},
+  note={\textsuperscript{*}These authors contributed equally to this work.},
 }
 ```
 
