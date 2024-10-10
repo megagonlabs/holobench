@@ -1,0 +1,15 @@
+You will be given a response that contains both the reasoning and the final answer. Your task is to extract these two components and format them as a JSON object.
+
+**Response:**
+```
+{response}
+```
+
+**Please extract and format the output as follows:**
+
+```json
+{{
+  "reasoning": "[Extracted reasoning text here. Truncate it if it exceed to 10000 words.]",
+  "final_answer": "[Extracted final answer here]"
+}}
+```

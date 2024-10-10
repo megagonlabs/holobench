@@ -1,0 +1,6 @@
+fire
+pandas
+litellm
+duckdb==1.0.0
+datasets>=2.14.7
+sql_metadata==2.12.0
