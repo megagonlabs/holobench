@@ -1,9 +1,8 @@
 # 🫧 HoloBench
 
 <p align="center">
-    💿 <a href="https://huggingface.co/datasets/megagonlabs/
-    bench" target="_blank">Data</a>
-    • 📃 <a href="https://arxiv.org/abs/xxx" target="_blank">Paper</a>
+    💿 <a href="https://huggingface.co/datasets/megagonlabs/holobench" target="_blank">Data</a>
+    • 📃 <a href="https://arxiv.org/abs/2410.11996" target="_blank">Paper</a>
 </p>
 
 Implementation of paper:
@@ -83,6 +82,7 @@ The output from the model looks like this:
   author={Seiji Maekawa\textsuperscript{*} and Hayate Iso\textsuperscript{*} and Nikita Bhutani},
   year={2024},
   note={\textsuperscript{*}These authors contributed equally to this work.},
+  url={https://arxiv.org/abs/2410.11996}
 }
 ```
 
