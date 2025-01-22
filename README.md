@@ -77,12 +77,13 @@ The output from the model looks like this:
 
 ## 📚 Citations
 ```bibtex
-@misc{maekawa2025holistic,
-  title={Holistic Reasoning with Long-Context LMs: A Benchmark for Database Operations on Massive Textual Data},
-  author={Seiji Maekawa\textsuperscript{*} and Hayate Iso\textsuperscript{*} and Nikita Bhutani},
-  year={2024},
-  note={\textsuperscript{*}These authors contributed equally to this work.},
-  url={https://arxiv.org/abs/2410.11996}
+@inproceedings{maekawa2025holistic,
+    title={Holistic Reasoning with Long-Context {LM}s: A Benchmark for Database Operations on Massive Textual Data},
+    author={Seiji Maekawa\textsuperscript{*} and Hayate Iso\textsuperscript{*} and Nikita Bhutani},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    note={\textsuperscript{*}These authors contributed equally to this work.},
+    url={https://openreview.net/forum?id=5LXcoDtNyq}
 }
 ```
 
