@@ -60,12 +60,12 @@ def merge_contexts(
     elif merge_strategy == "middle":
         mid_point = len(main_context) // 2
         merged_context = (
-            main_context[:mid_point] + auxiliary_context + main_context[mid_point:]
+            auxiliary_context[:mid_point] + main_context + auxiliary_context[mid_point:]
         )
     elif merge_strategy == "bimodal":
         mid_point = len(auxiliary_context) // 2
         merged_context = (
-            auxiliary_context[:mid_point] + main_context + auxiliary_context[mid_point:]
+            main_context[:mid_point] + auxiliary_context + main_context[mid_point:]
         )
     else:
         raise ValueError()
